@@ -10,6 +10,10 @@ tmp.ipynb
 # dataset
 coil-20-proc/
 
+# other
+*.pdf
+
+
 # Distribution / packaging
 .Python
 build/
