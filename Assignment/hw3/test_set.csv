@@ -1,0 +1,4 @@
+ID,Buying Price,Maintenance Cost,Number of Doors,Number of Persons,Lug Boot,Safety,Quality
+0,vhigh,high,4,4,small,high,-
+1,med,vhigh,2,2,med,low,-
+2,low,high,3,4,big,med,-

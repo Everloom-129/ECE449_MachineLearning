@@ -1,0 +1,21 @@
+ID,Buying Price,Maintenance Cost,Number of Doors,Number of Persons,Lug Boot,Safety,Quality
+0,vhigh,vhigh,2,2,small,low,unacc
+1,vhigh,med,2,2,small,low,unacc
+2,low,high,3,4,big,high,vgood
+3,high,med,2,4,med,high,acc
+4,high,med,2,4,big,low,unacc
+5,high,med,2,4,big,med,acc
+6,high,med,2,4,big,high,acc
+7,high,high,4,4,small,low,unacc
+8,vhigh,vhigh,2,2,big,high,unacc
+9,med,high,2,2,small,med,unacc
+10,med,high,2,2,small,high,unacc
+11,med,high,2,2,med,low,unacc
+12,med,high,2,2,med,med,unacc
+13,vhigh,vhigh,2,4,med,med,unacc
+14,ow,high,3,4,med,high,vgood
+15,med,low,3,4,med,med,acc
+16,med,low,3,4,med,high,good
+17,med,low,3,4,big,low,unacc
+18,low,low,4,4,big,med,good
+19,vhigh,vhigh,3,2,big,high,unacc
