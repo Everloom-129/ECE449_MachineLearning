@@ -119,16 +119,13 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
-# Define a function to get the active conda environment
-# get_conda_env() {
-#     local conda_env
-#     conda_env=$(conda info --env | awk '/\*/{print $1}')
-#     if [ -n "$conda_env" ]; then
-#         echo "($conda_env) "
-#     fi
-# }
+
 
 # Modify the PS1 prompt
 # PS1="\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\u@\h:\[\033[01;34m\]\w\[\033[00m\]\$(get_conda_env)\$ "
 # Modify the PS1 prompt
-PS1="\[\e]0;tony:\w\a\]${debian_chroot:+($debian_chroot)}root@tony:\[\033[01;34m\]\w\[\033[00m\]\$(get_conda_env)\$ "
+PS1="\[\e]0;tony:\w\a\]${debian_chroot:+($debian_chroot)}root@tony:\[\033[01;34m\]\w\[\033[00m\]\$ "
+
+export CUDA_HOME=/usr/local/cuda
+export PATH=/usr/local/cuda/bin:$PATH
+export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
