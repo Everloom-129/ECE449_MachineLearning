@@ -105,7 +105,55 @@
 ## NLP
 
 - N-grams
+
 - **Markov assumption**
+
 - smoothing
-- problems 
-- 
+
+- > problems 
+
+- Disadvantage of one-hot
+
+
+
+- Word2Vec
+- GPT & BERT
+- Naive Bayes classfication
+- bayesian rule
+- MAP
+
+
+
+## Back to classcic
+
+- Logistical regression
+- gradient update 
+- decision tree
+- chori the heat 
+- entropy
+- overfit 
+- bagging
+- adaboost
+- unsupervised learning 
+- clustering
+- theoretical kmeans
+- hard-soft assignment
+- gmm & em
+- spatial clustation
+- evaluating clusters
+- **PCA & Reconstruction Error**
+- Depgree matrix and laplacian
+- Active Learning 
+- Sample selection 
+- stream, pool based
+- the reloof density and uncertatinty & choosing between strategy 
+- reinforcement learning
+  - Def: history, state, environments, AGENT, cevard, observation, etc. 
+  - Polices
+  - Markov Decision process
+  - Bellman equation (definition)
+  - TD, MC
+  - R learning (?)
+  - eligibility erace?
+  - e greedy exploration
+  - saze?
